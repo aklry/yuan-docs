@@ -1,6 +1,6 @@
 import { defineConfig } from 'vitepress'
-import nav from './nav.mjs'
-import sidebar from "./sidebar.mjs";
+import nav from './nav/index.mjs'
+import sidebar from "./sidebar/index.mjs";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
