@@ -1,12 +1,39 @@
 export default [
-    { text: '首页', link: '/' },
+    {text: '首页', link: '/'},
     {
-      text: '前端体系', items: [
-        {
-          text: "vue",
-          link: "/前端体系/Vue/01.自定义指令结合IntersetionObserver API实现上拉加载"
-        }
-      ]
+        text: '前端体系',
+        items: [
+            {
+                text: 'Vue',
+                link: '/前端体系/Vue/01.自定义指令结合IntersetionObserver API实现上拉加载'
+            },
+            {
+                text: 'React',
+                items: [
+                    {
+                        text: 'css',
+                        link: '/前端体系/React/css/01. react中使用css的5种方式',
+                    },
+                    {
+                        text: 'redux',
+                        link: '/前端体系/React/redux/01.redux的使用'
+                    }
+                ],
+            },
+            {
+                text: '项目',
+                items: [
+                    {
+                        text: 'Vue',
+                        link: '/前端体系/项目/Vue/从0到1完成后台管理系统/01.完成环境搭建'
+                    },
+                    {
+                        text: 'React',
+                        link: '/前端体系/React/redux/01.redux的使用'
+                    }
+                ],
+            },
+        ]
     },
-    { text: '工作知识碎片', link: '/工作知识碎片/01.switch_if分支转换为map映射' }
+    {text: '工作知识碎片', link: '/工作知识碎片/01.switch_if分支转换为map映射'}
 ];
