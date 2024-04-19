@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: 快速开始
-      link: /前端体系/React/css/01. react中使用css的5种方式
+      link: /前端体系/React/css/01.react中使用css的5种方式
     - theme: alt
       text: github
       link: https://github.com/aklry/yuan-docs
