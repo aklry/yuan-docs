@@ -10,7 +10,7 @@ export default {
             items: [
                 {
                     text: 'css',
-                    link: '/前端体系/React/css/01. react中使用css的5种方式',
+                    link: '/前端体系/React/css/01.react中使用css的5种方式',
                 },
                 {
                     text: 'redux',
