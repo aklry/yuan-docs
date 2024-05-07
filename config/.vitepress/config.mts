@@ -12,7 +12,10 @@ export default defineConfig({
     sidebar,
     socialLinks: [
       { icon: 'github', link: 'https://github.com/aklry' }
-    ]
+    ],
+    footer: {
+      copyright: 'Copyright © 2024-present aklry | <a href="http://beian.miit.gov.cn">粤ICP备2024244039号</a>',
+    }
   },
   head: [
       ['link', { rel: 'icon', href: '/site.png' } ]
