@@ -18,6 +18,6 @@ export default defineConfig({
     }
   },
   head: [
-      ['link', { rel: 'icon', href: '/site.png' } ]
+    ['link', { rel: 'icon', href: '/site.png' } ]
   ]
 })

@@ -19,6 +19,7 @@ hero:
 features:
   - title: JavaScript相关
     details: JavaScript相关学习、使用以及开发笔记
+    link: /前端体系/JavaScript/JavaScript高级/01.函数中的this指向
     icon:
       src: /JavaScript.svg
   - title: Vue相关
