@@ -11,10 +11,10 @@ hero:
   actions:
     - theme: brand
       text: 快速开始
-      link: /前端体系/React/css/01.react中使用css的5种方式
+      link: /前端体系/JavaScript/JavaScript高级/01.函数中的this指向
     - theme: alt
       text: github
-      link: https://github.com/aklry/yuan-docs
+      link: https://github.com/aklry
 
 features:
   - title: JavaScript相关

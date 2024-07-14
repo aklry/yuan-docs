@@ -4,3 +4,4 @@ config/.vitepress/cache/deps
 .vscode
 .idea
 node_modules
+pnpm-lock.yaml
