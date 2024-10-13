@@ -1,19 +1,19 @@
 {
-  "name": "yuan-docs",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "docs:dev": "vitepress dev config",
-    "docs:build": "vitepress build config",
-    "docs:preview": "vitepress preview config"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "vitepress": "^1.1.1",
-    "vue": "^3.4.23"
-  }
+    "name": "yuan-docs",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "docs:dev": "vitepress dev config",
+        "docs:build": "vitepress build config",
+        "docs:preview": "vitepress preview config"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "vitepress": "^1.1.1",
+        "vue": "^3.4.23"
+    }
 }
