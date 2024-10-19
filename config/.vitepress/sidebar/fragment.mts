@@ -37,6 +37,10 @@ export default [
             {
                 text: '09.Vue3使用普通div标签实现单选以及多选效果',
                 link: '/工作知识碎片/09.Vue3使用普通div标签实现单选以及多选效果'
+            },
+            {
+                text: '10.请求缓存',
+                link: '/工作知识碎片/10.请求缓存'
             }
         ],
         collapsed: true
