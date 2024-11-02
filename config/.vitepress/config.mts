@@ -6,7 +6,6 @@ import sidebar from './sidebar/index.mjs'
 export default defineConfig({
 	title: '源文档',
 	description: '知识总结及工作总结',
-	outDir: 'docs',
 	themeConfig: {
 		// https://vitepress.dev/reference/default-theme-config
 		nav,
