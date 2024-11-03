@@ -1,4 +1,3 @@
-import system from './system.mts'
 export default [
 	{ text: '首页', link: '/' },
 	{ text: '前端体系', link: '/前端体系/JavaScript/JavaScript高级/01.函数中的this指向.md' },
