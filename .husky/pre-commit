@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+cd g:/桌面/code/xmzs/cicd
+
+node app.js 文档库

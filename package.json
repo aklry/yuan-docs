@@ -15,5 +15,8 @@
     "dependencies": {
         "vitepress": "^1.1.1",
         "vue": "^3.4.23"
+    },
+    "devDependencies": {
+        "husky": "8"
     }
 }
