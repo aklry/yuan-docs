@@ -65,6 +65,10 @@ export default [
 			{
 				text: '16.js解构赋值的妙用',
 				link: '/工作知识碎片/16.js解构赋值的妙用'
+			},
+			{
+				text: '17.关于uniapp生成一维码图片.md',
+				link: '/工作知识碎片/17.关于uniapp生成一维码图片'
 			}
 		],
 		collapsed: true
