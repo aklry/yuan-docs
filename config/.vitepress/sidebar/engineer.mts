@@ -20,6 +20,10 @@ export default {
 				{
 					text: '01.基础配置',
 					link: '/前端体系/前端工程化/webpack/01.基本配置.md'
+				},
+				{
+					text: '02.webpack基本使用',
+					link: '/前端体系/前端工程化/webpack/02.webpack基本使用.md'
 				}
 			]
 		}
