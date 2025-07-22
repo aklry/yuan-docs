@@ -24,6 +24,10 @@ export default {
 				{
 					text: '02.webpack基本使用',
 					link: '/前端体系/前端工程化/webpack/02.webpack基本使用.md'
+				},
+				{
+					text: '03.webpack高级',
+					link: '/前端体系/前端工程化/webpack/03.webpack高级.md'
 				}
 			]
 		}
