@@ -30,7 +30,8 @@ export default defineConfig({
 		// 搜索栏
 		search: {
 			provider: 'local'
-		}
+		},
+		outline: [2, 3]
 	},
 	head: [['link', { rel: 'icon', href: '/site.png' }]]
 })
