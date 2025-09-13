@@ -6,5 +6,6 @@ import engineer from './engineer.mts'
 import ops from './ops.mts'
 import sourcecode from './sourcecode.mts'
 import network from './network.mts'
+import uniapp from './uniapp.mts'
 
-export default [js, engineer, vue, react, network, sourcecode, project, ops]
+export default [js, network, engineer, vue, react, uniapp, sourcecode, project, ops]
