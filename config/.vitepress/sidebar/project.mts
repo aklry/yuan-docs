@@ -29,6 +29,32 @@ export default {
 						}
 					],
 					collapsed: true
+				},
+				{
+					text: 'elpis',
+					items: [
+						{
+							text: '01.elpis之elpis-core实现',
+							link: '/前端体系/项目/Vue/elpis/01.elpis之elpis-core实现'
+						},
+						{
+							text: '02.elpis之前端工程化',
+							link: '/前端体系/项目/Vue/elpis/02.elpis之前端工程化'
+						},
+						{
+							text: '03.elpis之领域模型',
+							link: '/前端体系/项目/Vue/elpis/03.elpis之领域模型'
+						},
+						{
+							text: '04.elpis之动态组件机制',
+							link: '/前端体系/项目/Vue/elpis/04.elpis之动态组件机制'
+						},
+						{
+							text: '05.elpis之npm包的发布',
+							link: '/前端体系/项目/Vue/elpis/05.elpis之npm包的发布'
+						}
+					],
+					collapsed: true
 				}
 			]
 		}

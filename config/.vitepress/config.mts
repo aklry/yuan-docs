@@ -31,7 +31,10 @@ export default defineConfig({
 		search: {
 			provider: 'local'
 		},
-		outline: [2, 3]
+		outline: {
+			label: '本页目录',
+			level: [2, 3]
+		}
 	},
 	head: [['link', { rel: 'icon', href: '/site.png' }]]
 })
