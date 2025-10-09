@@ -52,6 +52,10 @@ export default {
 						{
 							text: '05.elpis之npm包的发布',
 							link: '/前端体系/项目/Vue/elpis/05.elpis之npm包的发布'
+						},
+						{
+							text: '06.elpis之总结',
+							link: '/前端体系/项目/Vue/elpis/06.elpis之总结'
 						}
 					],
 					collapsed: true
