@@ -13,10 +13,11 @@
     "author": "",
     "license": "ISC",
     "dependencies": {
-        "vitepress": "^1.1.1",
+        "vitepress": "^1.6.4",
         "vue": "^3.4.23"
     },
     "devDependencies": {
-        "husky": "8"
+        "husky": "8",
+        "vitepress-theme-teek": "^1.5.2"
     }
 }
