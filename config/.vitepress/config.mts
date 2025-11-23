@@ -1,6 +1,5 @@
 import { defineConfig } from 'vitepress'
 import nav from './nav/index.mjs'
-import sidebar from './sidebar/index.mjs'
 import { defineTeekConfig } from 'vitepress-theme-teek/config'
 // Teek 主题配置
 const teekConfig = defineTeekConfig({
@@ -11,7 +10,7 @@ const teekConfig = defineTeekConfig({
 	},
 	banner: {
 		enabled: true, // 是否启用 Banner
-		name: '源文档', // Banner 标题，默认读取 vitepress 的 title 属性
+		name: '源空间', // Banner 标题，默认读取 vitepress 的 title 属性
 		bgStyle: 'fullImg', // Banner 背景风格：pure 为纯色背景，partImg 为局部图片背景，fullImg 为全屏图片背景
 		pureBgColor: '#28282d', // Banner 背景色，bgStyle 为 pure 时生效
 		imgInterval: 15000, // 当多张图片时（imgSrc 为数组），设置切换时间，单位：毫秒
@@ -70,19 +69,19 @@ const teekConfig = defineTeekConfig({
 		slogan: '代码存档，思路开源',
 		avatar: '/site.png', // 博主头像
 		shape: 'circle',
-		circleBgImg: '/images/bg.jpeg'
-	}
+		circleBgImg: '/images/bg.jpg'
+	},
+	sidebarTrigger: true
 })
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
 	extends: teekConfig,
-	title: '源文档',
+	title: '源空间',
 	description: '知识总结及工作总结',
 	themeConfig: {
 		// https://vitepress.dev/reference/default-theme-config
 		nav,
-		sidebar,
 		socialLinks: [{ icon: 'github', link: 'https://github.com/aklry' }],
 		footer: {
 			copyright: 'Copyright © 2024-present aklry | <a href="http://beian.miit.gov.cn">粤ICP备2024244039号</a>'
